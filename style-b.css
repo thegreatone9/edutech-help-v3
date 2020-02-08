@@ -1,0 +1,214 @@
+body{
+	background-color: #F8F8FF;
+}
+
+
+
+.pointer {
+	cursor: pointer;
+	
+}
+
+#containerr {
+	
+}
+
+#container {
+	width: 100%;
+	margin: auto;	
+}
+
+#content {
+	//width: 1000px;
+	background: white;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+	padding: 10px;
+	margin: 10px;
+	
+	
+}
+
+
+#student-icon {
+	transition: all 1.2s ease;
+	-webkit-transition: all 1.2s ease;
+	
+}
+
+
+#teacher-icon {
+	transition: all 1.2s ease;
+	-webkit-transition: all 1.2s ease;
+	
+}
+
+
+.my-container {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.content.row {
+	margin: auto;
+	transition: all 1.2s ease;
+	-webkit-transition: all 1.2s ease;
+	
+	
+}
+
+.row-h {
+	
+}
+
+.my-row {
+	min-height: 150px;
+	//background-color: white;
+}
+
+.my-row h6 {
+	/*position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);*/
+}
+
+.my-col {
+	border: .5px solid #DADADA;
+	height: 70px;
+	text-align: center;
+	//background: white
+	box-shadow: 0.5px 0.5px gray;
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	margin: 20px;
+	//linear-gradient(#ededed, white);
+	
+}
+
+.my-col:hover {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-col-r {
+	
+	//display: flex;
+	//flex-direction: column;
+	text-align: center;
+	color: black;
+	font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    //font-weight: 800;
+	transition: all .2s ease;
+	-webkit-transition: all .2 ease;
+	margin: 30px;
+}
+
+.my-col-r:hover {
+	//text-decoration: underline;
+}
+
+a {
+	color: black;
+}
+
+
+
+#footer {
+	font: 14.4px, 
+	font-family: 'Lato' sans-serif
+	clear: both;
+	text-align: center;
+}
+
+.site-footer {
+    font-size: .9em;
+}
+
+.section, section {
+    position: relative;
+}
+
+.bg-5 {
+    background-color: #181c1f;
+}
+
+.color-smoke {
+    color: #8e9ab0;
+}
+
+.section [class^=container], section [class^=container] {
+    position: relative;
+}
+.section [class^=container], section [class^=container] {
+    padding-top: 90px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+
+}
+.container {
+	//margin-top: 30px;;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row>.col, .row>[class*=col-] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media (min-width: 768px)
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 41.6667%;
+    max-width: 41.666667%;
+}
+
+.btn-rounded {
+    border-radius: 25px;
+}
+
+.btn:not(.btn-lg):not(.btn-sm) {
+    font-size: 11px;
+}
+
+.btn-outline-2 {
+    color: #4e5a70;
+    background-color: transparent;
+    background-image: none;
+    border-color: #4e5a70;
+}
+
+.btn-outline-2:hover {
+	color : white;
+	background-color: #4e5a70;
+}
+
+
+
+
+	
