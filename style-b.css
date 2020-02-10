@@ -56,8 +56,8 @@ body{
 	
 }
 
-.row-h {
-	
+.row.helper-row {
+	margin: 0;
 }
 
 .my-row {
@@ -108,8 +108,9 @@ body{
 	margin: 30px;
 }
 
-.my-col-r:hover {
-	//text-decoration: underline;
+.my-col:hover {
+	text-decoration: none;
+	color: black;
 }
 
 .my-col a {
