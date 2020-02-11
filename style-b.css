@@ -88,7 +88,6 @@ body{
 	-webkit-transition: all .2s ease;
 	margin: 20px;
 	//linear-gradient(#ededed, white);
-	
 }
 
 .my-col:hover {
@@ -115,6 +114,16 @@ body{
 
 .my-col a {
 	color:524C4C;
+}
+
+.my-col h6 {
+	margin-bottom: 0;
+}
+
+.img-cont {
+	text-align: center;
+	height: 120px;
+ 	width: auto;
 }
 
 
